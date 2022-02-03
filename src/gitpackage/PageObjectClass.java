@@ -1,6 +1,5 @@
 package gitpackage;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageObjectClass {
 	private static WebElement element=null;
-	//checking git from eclipse
+	
 	public static WebElement user_EmailId(WebDriver driver) {
 		element=driver.findElement(By.id("email"));
 		return element;
